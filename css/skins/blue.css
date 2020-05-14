@@ -1,0 +1,42 @@
+.aside .logo a::before{
+    border-top: 4px solid #2196f3;
+    border-left: 4px solid #2196f3;
+}
+
+.aside .logo a::after{
+    border-bottom: 4px solid #2196f3;
+    border-right: 4px solid #2196f3;
+}
+
+body.dark .aside .nav li a.active,
+body.dark .aside .nav li a:hover,
+.contact__info-item .icon .fa,
+.lightbox .lightbox__controls .prev-item .fa,
+.lightbox .lightbox__controls .next-item .fa,
+.about__content .about__text h3 span,
+.aside .nav li a.active,
+.aside .nav li a:hover,
+.service__item .service__item-inner .icon .fa,
+.portfolio__section .portfolio__filter button.active,
+body.dark .portfolio__section .portfolio__filter button.active,
+.portfolio__section .portfolio__item .portfolio__info .icon .fa{
+    color: #2196f3;
+}
+.aside .nav__toggle span,
+.aside .nav__toggle span::before,
+.aside .nav__toggle span::after,
+.home__section .intro .social-link a,
+.section-title h2::before,
+.section-title h2::after,
+.btn,
+.about__content .skills .skills__item .progress .progress__in,
+.about__content .timeline .timeline__item::before,
+.about__content .timeline .circle-dot,
+.service__item .service__item-inner:hover .icon
+{
+    background-color: #2196f3;
+}
+body.dark .portfolio__section .portfolio__filter button.active,
+.portfolio__section .portfolio__filter button.active{
+    border-color: #2196f3;
+}
